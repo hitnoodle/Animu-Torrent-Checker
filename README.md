@@ -8,6 +8,7 @@ Simple program to download anime torrent automatically. Current version is conso
 Compile, business as usual. 
 
 There are two XML files that must be configured, Settings and AnimuSeries:
+
 1. Place Settings.xml on the same folder as the executable. Change the AnimeListPath (where you will put AnimuSeries.xml) and TorrentDownloadFolder (folder where you want to put downloaded torrent files, this folder must exists!) to where you want it to be.
 2. Place AnimuSeries.xml to the path you set up in Settings. Add/remove anime information to what you want to automaticallt download.
 
@@ -23,6 +24,7 @@ Anime information itself are represented as xml data, you can see the usage in A
 ## Further Usage
 
 This program is designed and can be used from far away by integrating it with cloud-backing-software and torrent downloaded program. My normal use case are:
+
 1. Put AnimuSeries.xml and Torrent folder on Dropbox folder.
 2. Refer that path in Settings.xml and executable on the local machine (machine where you want to download stuffs, ex: home PC)
 3. Refer the TorrentDownloadFolder path on uTorrent or something to automatically run the torrent on the folder.
@@ -33,6 +35,7 @@ Using the program like this, you can simply update the series from the cloud. Yo
 ## Roadmap
 
 Below are list of feature that I want to add/change in the future:
+
 1. Bug fixing / error checking.
 2. Change implementation to support Mono to enable cross platform. Or, rewrite in Go.
 3. Support last episode vs delete series manually from XML.
