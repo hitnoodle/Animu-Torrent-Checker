@@ -25,7 +25,7 @@ Anime information itself are represented as xml data, you can see the usage in A
 
 ## Further Usage
 
-This program is designed and can be used from far away by integrating it with cloud-filesync-software and torrent-downloader program. My normal use case are:
+This program is designed and can be used from far away by integrating it with cloud-filesync software and torrent-downloader program. My normal use case are:
 
 1. Put AnimuSeries.xml and Torrent folder on Dropbox folder.
 2. Refer that path in Settings.xml and executable on the local machine.
