@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimuSeries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AnimuData>
+    <Animu>
+      <Title>Chuunibyou demo Koi ga Shitai! Ren</Title>
+      <Episode>4</Episode>
+      <Subber>HorribleSubs</Subber>
+    </Animu>
+    <Animu>
+      <Title>Noragami</Title>
+      <Episode>4</Episode>
+      <Subber>HorribleSubs</Subber>
+    </Animu>
+    <Animu>
+      <Title>Toaru Hikuushi e no Koiuta</Title>
+      <Episode>4</Episode>
+      <Subber>Commie</Subber>
+    </Animu>
+  </AnimuData>
+</AnimuSeries>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MinutesToUpdate>15</MinutesToUpdate>
+  <SecondsToTimeout>30</SecondsToTimeout>
+  <AnimeListPath>C:\Path\to\Series\here\AnimuSeries.xml</AnimeListPath>
+  <TorrentDownloadFolder>C:\Path\to\Torrent\Folder\Here\</TorrentDownloadFolder>
+</Settings>
