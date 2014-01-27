@@ -9,8 +9,10 @@ Compile, business as usual.
 
 There are two XML files that must be configured, Settings and AnimuSeries:
 
-1. Place Settings.xml on the same folder as the executable. Change the AnimeListPath (where you will put AnimuSeries.xml) and TorrentDownloadFolder (folder where you want to put downloaded torrent files, this folder must exists!) to where you want it to be.
-2. Place AnimuSeries.xml to the path you set up in Settings. Add/remove anime information to what you want to automaticallt download.
+1. Place Settings.xml on the same folder as the executable. 
+  * Change the AnimeListPath to where you will put AnimuSeries.xml
+  * Change TorrentDownloadFolder to the folder where you want to put downloaded torrent files (this folder must exists!)
+2. Place AnimuSeries.xml to the path you set up in Settings. Add/remove anime information to what you want to automatically download.
 
 Anime information itself are represented as xml data, you can see the usage in AnimeSeries.xml. Change the title, subber, and episode to the one where you want to start. Copy and change again if you want to check another series.
 ```
@@ -26,7 +28,7 @@ Anime information itself are represented as xml data, you can see the usage in A
 This program is designed and can be used from far away by integrating it with cloud-backing-software and torrent downloaded program. My normal use case are:
 
 1. Put AnimuSeries.xml and Torrent folder on Dropbox folder.
-2. Refer that path in Settings.xml and executable on the local machine (machine where you want to download stuffs, ex: home PC)
+2. Refer that path in Settings.xml and executable on the local machine.
 3. Refer the TorrentDownloadFolder path on uTorrent or something to automatically run the torrent on the folder.
 4. Run the program and uTorrent in that local machine.
 
